@@ -1,0 +1,26 @@
+name: "Tiziana A. Gelmi Candusso"
+output_dir: "."
+navbar:
+  title: "Dr. Tiziana A. Gelmi Candusso"
+  left:
+    - text: "Current Research"
+      href: current_research.html
+    - text: "Past Research"
+      href: past_research.html
+    - text: "Programming"
+      href: software.html
+    - text: "Public Outreach"
+      href: public_outreach.html #posts su frugivore seed dispersal
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/tgelmi-candusso
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/t_gelmicandusso
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/tagcandusso/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
